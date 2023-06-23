@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    font-family: 'Alegreya Sans', sans-serif;}
+.container{
+    width: 90%;
+    margin: auto;
+}
+p{
+    line-height: 1.86em;
+    margin-bottom: 20px;
+}
+.clr{
+    clear: both;
+}
+/* navbar start */
+.navbar {
+    padding: 20px 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+.navbar a {
+    color: #595959;
+    text-decoration: none;
+    font-size: 18px;
+}
+.navbar img{
+    width: 150px;
+    float: left;
+    vertical-align: middle;
+
+}
+.navbar li {
+    margin-right: 35px;
+}
+
+.navbar ul li{
+    float: right;
+    list-style: none;
+}
+.navbar .container{
+    background-color: blue;
+}
+/* navbar end */
+
+/* home section start */
+.home-section {
+    background-image: url(http://www.engage.veented.com/bakery/wp-content/uploads/sites/27/2017/04/drew-coffman-1872.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    overflow: auto;
+    /* height: 100vh; */
+}
+.home-section .container{
+    margin-top: 300px;
+    margin-bottom: 40px;
+}
+.home-section h1{
+    font-size: 76px;
+    margin: 20px 0px;
+    margin-bottom: 50px;
+}
+.home-section p{
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+.home-section button{
+    border: none;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 5px;
+    background-color: #8e7754;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+/* home section end */
+
+/* who we are section start */
+.whoWeAre-section{
+    margin-top: 40px;
+}
+.whoWeAre-section .whoWeAre-img{
+    display: inline-block;
+    width: 39%;
+    padding-right: 50px;
+}
+.whoWeAre-section .whoWeAre-img img{
+    width: 100%;
+}
+
+.whoWeAre-section .details{
+    display: inline-block;
+    width:49%;
+    padding-left: 50px;
+}
+.whoWeAre-section h2 {
+    color: #303030;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44.16px;
+}
+.whoWeAre-section p, .whoWeAre-section li {
+    color: #686868;
+    font-size: 17px;
+    line-height: 31.62px;
+
+}
+.whoWeAre-section li {
+    line-height: 51.62px;
+}
+/* who we are section end */
+
+/* our location section start */
+.ourLocation-section{
+    background-color: #F8F8F8;
+    margin-top: 40px;
+}
+.ourLocation-section .container{
+    padding: 20px 0px;
+}
+.ourLocation-section .ourLocation-img{
+    width: 39%;
+    display: inline-block;
+    padding-left: 50px;
+}
+.ourLocation-section .ourLocation-img img{
+    width: 100%;
+}
+.ourLocation-section .details2{
+    width: 49%;
+    display: inline-block;
+    padding-right: 50px;
+    color: #686868;
+    font-size: 17px;
+    line-height: 31.62px;
+}
+.ourLocation-section h2{
+    color: #303030;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44.16px;
+}
+/* our location section end */
+
+/* Our Baking section start */
+.ourBaking-section{
+    margin-top: 50px;
+    text-align: center;
+}
+.ourBaking-section h3, .ourBaking-section p{
+    margin-bottom: 30px;
+}
+.ourBaking-section p{
+    font-size: 17px;
+    line-height: 31.62px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #888;
+
+}
+.ourBaking-section h3{
+    font-size: 30px;
+    line-height: 41.4px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.ourBaking-section .product{
+    float: left;
+    width:33%;
+    padding: 0px 20px;
+}
+.ourBaking-section .product .ourBaking-imgs img{
+    width: 100%;
+}
+.ourBaking-section .ourBaking-imgs{
+    margin-bottom: 30px;
+}
+.ourBaking-section .details3 h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+/* Our Baking section end */
+
+/* Contact Information section start */
+.contactInfo-section{
+    margin-top: 50px;
+    padding-top: 50px;
+    background-color: #f8f8f8;
+}
+.contactInfo-section .info h2, .contactInfo-section .info p,.contactInfo-section .info li{
+    margin-bottom: 30px;
+}
+.contactInfo-section .info ul{
+    padding-left: 50px;
+    margin-bottom: 30px;
+}
+.contactInfo-section .info p,.contactInfo-section .info li{
+    font-size: 17px;
+    margin-bottom: 30px;
+    color:#686868;
+}
+.contactInfo-section .info h2{
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.contactInfo-section .info{
+    float: left;
+    width: 50%;
+}
+.contactInfo-section .map{
+    background-color: #8e7754;
+    width: 400px;
+    height: 500px;
+    float: right;
+    margin-bottom: 50px;
+}
+/* Contact Information section end */
+
+/* details section start */
+.details-section .about-us, .details-section .Why-we-are-special, .details-section .Opening-Hours, .details-section .Contact-Details{ 
+    /* background-color: red; */
+    float: left;
+    width: 25%;
+    padding: 0px 20px;
+
+}
+.details-section{
+    padding-top: 50px;
+    background-color: #403D38;
+}
+.details-section h4 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.details-section p, .details-section ul, .details-section span{
+    color: #969696;
+    font-size: 16px;
+}
+.details-section li{
+    list-style: none;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    margin-bottom: 6px;
+    padding-bottom: 7px;
+    line-height: 31.62px;
+}
+.details-section span{
+    display: block;
+    list-style: none;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    margin-bottom: 6px;
+    padding-bottom: 7px;
+    line-height: 31.62px;
+}
+/* details section end */
+
+/* footer section start */
+.footer{
+    padding: 50px 0px;
+    text-align: center;
+    background-color: #353330;
+}
+.footer p{
+    color: #727271;
+}
+.footer .social-media span{
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #8c8a86;
+    float: left;
+    margin-right: 5px;
+    transition: background ease-in-out .5s;
+}
+.footer .social-media{
+    /* background-color: red; */
+    width: fit-content;
+    margin: auto;
+    
+}
+.social-media .inner{
+    background-color: blue;
+    padding-right: 10px;
+}
+.footer .social-media span:hover{
+    background-color: red;
+}
+/* footer section end */
